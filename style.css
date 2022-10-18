@@ -1,0 +1,123 @@
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+/* body{
+    background-color: grey;
+} */
+body{
+    overflow-x: hidden;
+}
+.container{
+    margin-top: 1vw;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+@media only screen and (max-width:653px){
+    .navbar-brand{
+        font-size: 19px;
+    }
+}
+ul{
+    color: #FFFF;
+}
+li{
+    margin-left: 5vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.bg-image{
+    background-image: url("./images/warren-buffett-quote.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+}
+@media only screen and (max-width:915px){
+    .bg-image{
+        height: 309px;
+    }
+}
+.navbar-blur{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+.main-text{
+    margin-top: 3vw;
+    margin-left: 5rem;
+}
+.content{
+    color: #929291;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.img-responsive{
+    width: 12rem;
+    height: auto;
+    margin-top: 25px;
+}
+.card-body{
+    padding: 35px;
+}
+.card1{
+    background-color: #8DACB8;
+    border-radius: 8px;
+    width: 22rem;
+    height: 15rem;
+    margin: 35px;
+}
+.card2{
+    background-color: #AE8DB8;
+    border-radius: 8px;
+    width: 22rem;
+    height: 15rem;
+    margin: 35px;
+}
+.card3{
+    background-color: #393B44;
+    border-radius: 8px;
+    width: 22rem;
+    height: 15rem;
+    margin: 35px;
+}
+.card4{
+    background-color: #E4E3D9;
+    border-radius: 8px;
+    width: 22rem;
+    height: 15rem;
+    margin: 35px;
+}
+.cards{
+    margin-top: 3vw;
+}
+.card-title{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+}
+.bckg{
+    background-color: #f5f5f5;
+}
+.title{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.building{
+    width: 32.8rem;
+}
+.text{
+    font-size: 1rem;
+}
+footer{
+    background-color: #393B44;
+    padding: 1rem;
+}
